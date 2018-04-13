@@ -1,0 +1,37 @@
+16px == 1rem
+
+html { font-size: 16px; }
+
+* {box-sizing: border-box}
+
+.nav-bar {
+  color: cornflowerblue
+}
+
+.nav-bar {
+  text-align: center
+}
+
+.nav-bar {
+  font-size: 3rem
+}
+
+.nav-bar a:active {
+  color: black
+}
+
+.nav-bar a:visited {
+  color: skyblue
+}
+
+.project-list a:active {
+  color:cornflowerblue
+}
+
+.project-list a:visited {
+  color:deeppink
+}
+
+.aboutme h1 {
+  text-shadow: 0 0 3px #FF0000;
+}
