@@ -5,7 +5,10 @@ html { font-size: 16px; }
 * {box-sizing: border-box}
 
 .nav-bar {
-  color: cornflowerblue
+  width: 75%;
+  padding: 15px;
+  border: none;
+  margin: auto
 }
 
 .nav-bar {
@@ -24,6 +27,17 @@ html { font-size: 16px; }
   color: skyblue
 }
 
+.nav-bar {
+  background-color: antiquewhite
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 5px;
+}
+
 .project-list a:active {
   color:cornflowerblue
 }
@@ -32,6 +46,10 @@ html { font-size: 16px; }
   color:deeppink
 }
 
-.aboutme h1 {
-  text-shadow: 0 0 3px #FF0000;
+.aboutme h2 {
+  text-shadow: 0 0 1px #0000FF;
+}
+
+.title {
+  margin: .5rem
 }
