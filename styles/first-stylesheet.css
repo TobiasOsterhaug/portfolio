@@ -34,11 +34,15 @@ html { font-size: 16px; }
   background-color: #B28AA0;
 }
 
+.title {
+  margin-left: 1.5rem
+}
+
 .project-list {
   display: flex;
   flex-direction: column;
   width: 75%;
-  margin: 5px;
+  margin: 2rem;
   font-family: 'Merriweather', serif;
 }
 
@@ -48,6 +52,12 @@ html { font-size: 16px; }
 
 .project-list a:visited {
   color:deeppink
+}
+
+.in-foot {
+  background-color: black;
+  color: white;
+  padding-left: 1rem;
 }
 
 .aboutme {
@@ -80,6 +90,3 @@ html { font-size: 16px; }
   margin: 5rem
 }
 
-.title {
-  margin: .5rem
-}
