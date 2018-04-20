@@ -46,11 +46,11 @@ html { font-size: 16px; }
 }
 
 .project-list a:active {
-  color:cornflowerblue
+  color:black
 }
 
 .project-list a:visited {
-  color:deeppink
+  color:black
 }
 
 .in-foot {
