@@ -48,6 +48,11 @@ html { font-size: 16px; }
 
 .aboutme h2 {
   text-shadow: 0 0 1px #0000FF;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.am-footer {
+  font-family: 'Exo 2', sans-serif;
 }
 
 .title {
