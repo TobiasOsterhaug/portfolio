@@ -9,7 +9,6 @@ html { font-size: 16px; }
 }
 
 .nav-bar {
-  width: 75%;
   padding: 15px;
   margin: auto;
 }
@@ -60,33 +59,42 @@ html { font-size: 16px; }
   padding-left: 1rem;
 }
 
-.aboutme {
+body {
   background-color: #7EADB2;
+}
+
+.aboutme {
   text-shadow: 0 0 1px #0000FF;
   font-family: 'Exo 2', sans-serif;
 }
 
 .aboutme {
   float: left;
-  width: 65%;
+  width: 55%;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  padding-left: 5rem;
+  padding-left: 3rem;
   margin-left: 3rem;
 }
 
 .face {
   float: right;
-  width: 25%
+  width: 30%;
+  margin: 2rem
 }
 
 .face img {
-  width: 75%;
+  width: 90%;
 }
 
 .am-footer {
   clear: both;
   font-family: 'Exo 2', sans-serif;
-  margin: 5rem
+}
+
+footer {
+  padding: 3rem;
+  padding-bottom: 100%;
+  background-color:  #B28AA0;
 }
 
