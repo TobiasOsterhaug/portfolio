@@ -4,15 +4,18 @@ html { font-size: 16px; }
 
 * {box-sizing: border-box}
 
-.nav-bar {
-  width: 75%;
-  padding: 15px;
-  border: none;
-  margin: auto
+* {
+  background-color: #
 }
 
 .nav-bar {
-  text-align: center
+  width: 75%;
+  padding: 15px;
+  margin: auto;
+}
+
+.nav-bar {
+  text-align: center;
 }
 
 .nav-bar {
@@ -24,11 +27,11 @@ html { font-size: 16px; }
 }
 
 .nav-bar a:visited {
-  color: skyblue
+  color: #FFFADA;
 }
 
 .nav-bar {
-  background-color: antiquewhite
+  background-color: #B28AA0;
 }
 
 .project-list {
@@ -47,13 +50,34 @@ html { font-size: 16px; }
   color:deeppink
 }
 
-.aboutme h2 {
+.aboutme {
+  background-color: #7EADB2;
   text-shadow: 0 0 1px #0000FF;
   font-family: 'Exo 2', sans-serif;
 }
 
+.aboutme {
+  float: left;
+  width: 65%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  margin-left: 3rem;
+}
+
+.face {
+  float: right;
+  width: 25%
+}
+
+.face img {
+  width: 75%;
+}
+
 .am-footer {
+  clear: both;
   font-family: 'Exo 2', sans-serif;
+  margin: 5rem
 }
 
 .title {
