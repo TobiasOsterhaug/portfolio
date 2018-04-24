@@ -1,2 +1,18 @@
 /* Testing transitions for assingment 6 */
 
+html { font: normal normal 16px/1.2 courier, monospace; }
+* { text-align: center; margin: 0; padding: 0; box-sizing: border-box; }
+
+/* starting size */
+
+img {
+  height: 15vw;
+  width: 30vw;
+}
+
+.monk:hover {
+  transform: rotate(360deg);
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+}
+
