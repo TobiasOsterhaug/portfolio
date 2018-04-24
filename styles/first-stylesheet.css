@@ -49,6 +49,16 @@ html { font-size: 16px; }
   color:black
 }
 
+/* nth-child practice with project list */
+
+.project-list :nth-child(odd) {
+  color: darkgreen;
+}
+
+.project-list :nth-child(even) {
+  color: cornsilk
+}
+
 .in-foot {
   background-color: black;
   color: white;
@@ -95,6 +105,9 @@ footer {
   clear: both;
   font-family: 'Exo 2', sans-serif;
 }
+
+
+
 
 
 
