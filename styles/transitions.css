@@ -10,9 +10,17 @@ img {
   width: 30vw;
 }
 
+/* practicing rotation */
 .monk:hover {
   transform: rotate(360deg);
   transition-duration: 5s;
   transition-timing-function: ease-in-out;
 }
 
+
+/*praciticing skey*/
+.cat:hover {
+  transform: skewX(50deg);
+  transition-duration: 7s;
+  transition-timing-function: linear;
+}
