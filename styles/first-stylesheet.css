@@ -52,7 +52,7 @@ html { font-size: 16px; }
 /* nth-child practice with project list */
 
 .project-list :nth-child(odd) {
-  color: darkgreen;
+  color: rebeccapurple
 }
 
 .project-list :nth-child(even) {
