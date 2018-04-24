@@ -4,10 +4,6 @@ html { font-size: 16px; }
 
 * {box-sizing: border-box}
 
-* {
-  background-color: #
-}
-
 .nav-bar {
   padding: 15px;
   margin: auto;
@@ -63,6 +59,14 @@ body {
   background-color: #7EADB2;
 }
 
+footer {
+  padding: 3rem;
+  padding-bottom: 100%;
+  background-color:  #B28AA0;
+}
+
+/* about me page css */
+
 .aboutme {
   text-shadow: 0 0 1px #0000FF;
   font-family: 'Exo 2', sans-serif;
@@ -92,9 +96,5 @@ body {
   font-family: 'Exo 2', sans-serif;
 }
 
-footer {
-  padding: 3rem;
-  padding-bottom: 100%;
-  background-color:  #B28AA0;
-}
+
 

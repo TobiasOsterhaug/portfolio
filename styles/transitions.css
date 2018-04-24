@@ -5,9 +5,15 @@ html { font: normal normal 16px/1.2 courier, monospace; }
 
 /* starting size */
 
+* {
+  background-color: bisque;
+}
+
 img {
   height: 15vw;
   width: 30vw;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 /* practicing rotation */
@@ -23,4 +29,32 @@ img {
   transform: skewX(50deg);
   transition-duration: 7s;
   transition-timing-function: linear;
+}
+
+/* nav bar css borrowed from index page */
+
+.nav-bar {
+  padding: 15px;
+  margin: auto;
+}
+
+.nav-bar {
+  text-align: center;
+}
+
+.nav-bar {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.nav-bar a:active {
+  color: black
+}
+
+.nav-bar a:visited {
+  color: #FFFADA;
+}
+
+.nav-bar {
+  background-color: #B28AA0;
 }
